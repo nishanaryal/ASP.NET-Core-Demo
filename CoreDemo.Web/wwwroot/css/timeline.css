@@ -1,0 +1,278 @@
+.timeline {
+  list-style: none;
+  margin: 25px 0 22px;
+  padding: 0;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.timeline:after {
+  /*border: 6px solid;*/
+  /*border-top-width: 13px;*/
+  /*border-color: #00637d transparent transparent transparent;*/
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -19px;
+  left: 15px;
+}
+
+.timeline-horizontal:after {
+  border-top-width: 6px;
+  border-left-width: 13px;
+  border-color: transparent transparent transparent #00637d;
+  top: 15px;
+  right: 0;
+  bottom: auto;
+  left: auto;
+}
+.timeline-horizontal .timeline-milestone {
+  border-top: 2px solid #00637d;
+  display: inline;
+  float: left;
+  margin: 20px 0 0 0;
+  padding: 40px 0 0 0;
+}
+.timeline-horizontal .timeline-milestone:before {
+  top: -17px;
+  left: auto;
+}
+.timeline-horizontal .timeline-milestone.is-completed:after {
+  top: -17px;
+  left: 0;
+}
+
+.timeline-milestone {
+  border-left: 2px solid #f7f7f7;
+  margin: 0 0 0 40px;
+  padding: 0px 0 10px 45px;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.timeline-milestone:last-child{
+  border-left:5px solid transparent;
+}
+.timeline-milestone:before {
+  border: 2px solid #ebebeb;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -30px;
+  width: 55px;
+  height: 55px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.timeline-milestone.is-completed:before {
+  background-color: #fff;
+}
+div.content {
+    counter-reset: my-counter;
+}
+
+div.content {
+    counter-increment: my-counter;
+}
+.timeline-milestone.is-completed:after {
+  color: #009789;
+  content: "1";
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  /*font-family: "FontAwesome";*/
+  line-height: 55px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.timeline-milestone.is-completed:nth-child(2):after{
+  content: "2";
+}
+.timeline-milestone.is-completed:nth-child(3):after{
+  content: "3";
+}
+.timeline-milestone.is-completed:nth-child(4):after{
+  content: "4";
+}
+.timeline-milestone.is-completed:nth-child(5):after{
+  content: "5";
+}
+.timeline-milestone.is-completed:nth-child(6):after{
+  content: "6";
+}
+.timeline-milestone.is-completed:nth-child(7):after{
+  content: "7";
+}
+.timeline-milestone.is-completed:nth-child(8):after{
+  content: "8";
+}
+.timeline-milestone.is-completed:nth-child(9):after{
+  content: "9";
+}
+.timeline-milestone.is-completed:nth-child(10):after{
+  content: "10";
+}
+.timeline-milestone.is-completed:nth-child(11):after{
+  content: "11";
+}
+.timeline-milestone.is-completed:nth-child(12):after{
+  content: "12";
+}
+.timeline-milestone.is-completed:nth-child(13):after{
+  content: "13";
+}
+.timeline-milestone.is-completed:nth-child(14):after{
+  content: "14";
+}
+.timeline-milestone.is-completed:nth-child(15):after{
+  content: "15";
+}
+.timeline-milestone.is-completed:nth-child(16):after{
+  content: "16";
+}
+.timeline-milestone.is-completed:nth-child(17):after{
+  content: "17";
+}
+.timeline-milestone.is-completed:nth-child(18):after{
+  content: "18";
+}
+.timeline-milestone.is-completed:nth-child(19):after{
+  content: "19";
+}
+.timeline-milestone.is-completed:nth-child(20):after{
+  content: "20";
+}
+.timeline-milestone.is-completed:nth-child(21):after{
+  content: "21";
+}
+.timeline-milestone.is-completed:nth-child(22):after{
+  content: "22";
+}
+.timeline-milestone.is-completed:nth-child(23):after{
+  content: "23";
+}
+.timeline-milestone.is-completed:nth-child(24):after{
+  content: "24";
+}
+.timeline-milestone.is-completed:nth-child(25):after{
+  content: "25";
+}
+.timeline-milestone.is-completed:nth-child(26):after{
+  content: "26";
+}
+.timeline-milestone.is-completed:nth-child(27):after{
+  content: "27";
+}
+.timeline-milestone.is-completed:nth-child(28):after{
+  content: "28";
+}
+.timeline-milestone.is-completed:nth-child(29):after{
+  content: "29";
+}
+.timeline-milestone.is-completed:nth-child(30):after{
+  content: "30";
+}
+.timeline-milestone.is-completed:nth-child(31):after{
+  content: "31";
+}
+.timeline-action {
+  background-color: #eef3f7;
+  padding: 25px 25px 25px 25px;
+  position: relative;
+  top:0px;
+  border-radius: 5px;
+  margin-bottom:15px;
+}
+.timeline-action.is-expandable .title {
+  cursor: pointer;
+  position: relative;
+}
+.timeline-action.is-expandable .title:focus {
+  outline: 0;
+  text-decoration: underline;
+}
+.timeline-action.is-expandable .title:after {
+  border: 6px solid #666;
+  border-color: transparent transparent transparent #666;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+.timeline-action.is-expandable .content {
+  display: none;
+}
+.timeline-action.is-expandable.is-expanded .title:after {
+  border-color: #666 transparent transparent transparent;
+  top: 10px;
+  right: 5px;
+}
+.timeline-action.is-expandable.is-expanded .content {
+  display: block;
+}
+.timeline-action .title, .timeline-action .content {
+  word-wrap: break-word;
+}
+.timeline-action .title {
+  color: #3a3a3a;
+  font-size: 16px;
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+.timeline-action .date {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.timeline-action .content {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-weight: 300;
+  text-align:justify;
+}
+.timeline-action .content p{font-size: 14px;color: #575757;line-height: 15px;}
+.file-list {
+  line-height: 1.4;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.page {
+  max-width: 1200px;
+  /*margin: 40px 30px;*/
+}
+
+a {
+  color: #00637d;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+.video-link:before {
+  content: "\f03d";
+  display: inline-block;
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+
+a[href*=".pdf"]:before {
+  content: "\f0f6";
+  display: inline-block;
+  font-family: "FontAwesome";
+  margin-right: 8px;
+}
+.timeline-action .arrow-left{width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right:12px solid #EEF3F7;position: absolute;top:16px;left: -12px;}

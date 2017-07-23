@@ -1,0 +1,119 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <UserSecretsId>aspnet-CoreDemo.Web-ad36259a-e44f-46a9-9335-7f68e3e07bec</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\animate.css" />
+    <Content Include="wwwroot\css\bootstrap-theme.css" />
+    <Content Include="wwwroot\css\bootstrap-theme.css.map" />
+    <Content Include="wwwroot\css\bootstrap-theme.min.css" />
+    <Content Include="wwwroot\css\bootstrap-theme.min.css.map" />
+    <Content Include="wwwroot\css\bootstrap.css" />
+    <Content Include="wwwroot\css\bootstrap.css.map" />
+    <Content Include="wwwroot\css\bootstrap.min.css" />
+    <Content Include="wwwroot\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\css\lightslider.css" />
+    <Content Include="wwwroot\css\material-design-iconic-font.css" />
+    <Content Include="wwwroot\css\material-design-iconic-font.min.css" />
+    <Content Include="wwwroot\css\site.min.css" />
+    <Content Include="wwwroot\css\style.css" />
+    <Content Include="wwwroot\css\timeline.css" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\fonts\Material-Design-Iconic-Font %281%29.eot" />
+    <Content Include="wwwroot\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="wwwroot\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="wwwroot\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="wwwroot\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="wwwroot\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="wwwroot\images\1.jpg" />
+    <Content Include="wwwroot\images\2.jpg" />
+    <Content Include="wwwroot\images\3.jpg" />
+    <Content Include="wwwroot\images\airlines.jpg" />
+    <Content Include="wwwroot\images\airlines.png" />
+    <Content Include="wwwroot\images\ass-org.jpg" />
+    <Content Include="wwwroot\images\ass-org.png" />
+    <Content Include="wwwroot\images\chandragiri.jpg" />
+    <Content Include="wwwroot\images\controls.png" />
+    <Content Include="wwwroot\images\email.png" />
+    <Content Include="wwwroot\images\fax.png" />
+    <Content Include="wwwroot\images\hill.png" />
+    <Content Include="wwwroot\images\in-bg-1.jpg" />
+    <Content Include="wwwroot\images\in-bg.jpg" />
+    <Content Include="wwwroot\images\in1.jpg" />
+    <Content Include="wwwroot\images\in2.jpg" />
+    <Content Include="wwwroot\images\in3.jpg" />
+    <Content Include="wwwroot\images\in4.jpg" />
+    <Content Include="wwwroot\images\inbound-bg.png" />
+    <Content Include="wwwroot\images\light1.jpg" />
+    <Content Include="wwwroot\images\logo-ime.png" />
+    <Content Include="wwwroot\images\m-pin.png" />
+    <Content Include="wwwroot\images\main-logo.png" />
+    <Content Include="wwwroot\images\our-serv.png" />
+    <Content Include="wwwroot\images\payment.jpg" />
+    <Content Include="wwwroot\images\payment.png" />
+    <Content Include="wwwroot\images\phone.png" />
+    <Content Include="wwwroot\images\pop1.jpg" />
+    <Content Include="wwwroot\images\pop2.jpg" />
+    <Content Include="wwwroot\images\pop3.jpg" />
+    <Content Include="wwwroot\images\pop4.jpg" />
+    <Content Include="wwwroot\images\serv1.png" />
+    <Content Include="wwwroot\images\slider1.jpg" />
+    <Content Include="wwwroot\images\slider2.jpg" />
+    <Content Include="wwwroot\images\top-image1.jpg" />
+    <Content Include="wwwroot\images\top-image2.jpg" />
+    <Content Include="wwwroot\images\top.png" />
+    <Content Include="wwwroot\images\Untitled-1.png" />
+    <Content Include="wwwroot\images\website.png" />
+    <Content Include="wwwroot\js\bootstrap.js" />
+    <Content Include="wwwroot\js\bootstrap.min.js" />
+    <Content Include="wwwroot\js\custom.js" />
+    <Content Include="wwwroot\js\jq-sticky-anything.min.js" />
+    <Content Include="wwwroot\js\jquery.min.js" />
+    <Content Include="wwwroot\js\lightslider.js" />
+    <Content Include="wwwroot\js\npm.js" />
+    <Content Include="wwwroot\js\page-slide.js" />
+    <Content Include="wwwroot\js\parallax.js" />
+    <Content Include="wwwroot\js\stick-detail-menu.js" />
+    <Content Include="wwwroot\js\wow.min.js" />
+    <Content Include="wwwroot\js\_jshintrc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="2.4.337" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.1" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>

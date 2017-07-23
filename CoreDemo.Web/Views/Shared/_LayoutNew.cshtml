@@ -1,0 +1,201 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ASP.NET Core Demo</title>
+
+    <environment names="Development">
+        <!-- Bootstrap -->
+        <link href="~/css/bootstrap.css" rel="stylesheet">
+        <link href="~/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <!-- google Translator -->
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- //google Translator -->
+        <link href="~/css/style.css" rel="stylesheet">
+    </environment>
+    <environment names="Staging,Production">
+        <!-- Bootstrap -->
+        <link href="~/css/bootstrap.css" rel="stylesheet">
+        <link href="~/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <!-- google Translator -->
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- //google Translator -->
+        <link href="~/css/style.css" rel="stylesheet">
+    </environment>
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+    <!-- headder -->
+    <!-- top-bar -->
+    <div id="top" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-bar">
+        <div class="container">
+            <ul class="top-left pull-left">
+                <li><i class="zmdi zmdi-phone-in-talk"></i> +977-9849845061
+                <li><i class="zmdi zmdi-email"></i> <a href="mailto:info@aryalnishan@outlook.com">info@aryalnishan@outlook.com</a></li>
+            </ul>
+            <ul class="top-right pull-right">
+                <li><i class="zmdi zmdi-alert-circle"></i> <a href="#">Your valueable Feedback</a></li>
+                <li><div id="google_translate_element"></div></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end top-bar -->
+    <!-- navbar -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navbar-wrap">
+        <div class="container">
+            <div class="row">
+                <div id="custom-menu" class="navbar navbar-default " role="navigation">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="home.html"><img src="img/main-logo.png" alt=""></a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+                            <span class="sr-only">Main Menu</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand second-img hidden-md hidden-lg pull-right" href="#"><img src="~/imges/logo-ime.png" alt=""></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-menubuilder">
+                        <ul class="nav navbar-nav navbar-left custom-navbar">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Where to go?</a></li>
+                            <li><a href="#">What to do?</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plan your trip <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Career <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#"><i class="zmdi zmdi-search"></i></a></li>
+                        </ul>
+                        <a class="navbar-brand pull-right hidden-xs hidden-sm" href="#"><img src="~/images/logo-ime.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+    <!-- end headder -->
+
+
+    @RenderBody()
+
+
+    <!-- footer -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+        <div class="container">
+            <div class="row">
+                <a href="#top"><p class="go-top text-center"><i class="zmdi zmdi-chevron-up"></i></p></a>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 links">
+                    <h3>Useful lnformations</h3>
+                    <ul>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> About us</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> The IME Travel Team</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Board of Directors</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Our Investors</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Legal Documents</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> IME Experts</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Visa Information</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Terms & Conditions</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Fare Rules</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> User Agreements</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Help & FAQs</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-chevron-right"></i> Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 links">
+                    <h3>IME Travels Pvt.Ltd</h3>
+                    <p><i class="zmdi zmdi-city"></i> Kantipath, Kathmandu, Nepal</p>
+                    <p><i class="zmdi zmdi-phone"></i> +977-01-4219467, 4232754, 4229724, 422316</p>
+                    <p><i class="zmdi zmdi-reader"></i> +977-01-4231034</p>
+                    <p><i class="zmdi zmdi-email"></i> info@imetravels.com</p>
+                    <p><i class="zmdi zmdi-globe-alt"></i> www.imetravels.com</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 links">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1294561077907!2d85.31303631462004!3d27.713288982789468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19024354dcbf%3A0xd60ed2683fb383da!2sIME+TRAVELS.COM!5e0!3m2!1sen!2snp!4v1487314402704" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <hr>
+            <div class="social text-center">
+                <a href="#"><p class="round fb"><i class="zmdi zmdi-facebook"></i></p></a>
+                <a href="#"><p class="round twitter"><i class="zmdi zmdi-twitter"></i></p></a>
+                <a href="#"><p class="round youtube"><i class="zmdi zmdi-youtube"></i></p></a>
+                <a href="#"><p class="round google"><i class="zmdi zmdi-google-plus"></i></p></a>
+                <a href="#"><p class="round linkedin"><i class="zmdi zmdi-linkedin"></i></p></a>
+            </div>
+            <div class="copy-right text-center">
+                <p>Copyright. All rights reserved. </a></p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    
+    <environment names="Development">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/jq-sticky-anything.min.js"></script>
+        <script src="~/js/parallax.js"></script>
+        <script src="~/js/page-slide.js"></script>
+        <script src="~/js/custom.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/jq-sticky-anything.min.js"></script>
+        <script src="~/js/parallax.js"></script>
+        <script src="~/js/page-slide.js"></script>
+        <script src="~/js/custom.js"></script>
+        @*<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>*@
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

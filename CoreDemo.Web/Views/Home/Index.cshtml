@@ -1,0 +1,850 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Learn how to build ASP.NET apps that can run anywhere.
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    There are powerful new features in Visual Studio for building modern web apps.
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Application uses</h2>
+        <ul>
+            <li>Sample pages using ASP.NET Core MVC</li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side libraries</li>
+            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>How to</h2>
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699318">Add client packages using Bower.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Overview</h2>
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Run & Deploy</h2>
+        <ul>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+        </ul>
+    </div>
+</div>*@
+
+    <!-- carousel -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="row">
+        <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="overlay"></div>
+                    <img src="~/images/slider1.jpg" alt="">
+                    <div class="carousel-caption main">
+                        <h1>Annapurna Basecamp Trekking</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                        <a href="#" class="btn btn-outline">View Detail</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay"></div>
+                    <img src="~/images/slider2.jpg" alt="">
+                    <div class="carousel-caption main">
+                        <h1>Trek to Gokyo Lake</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                        <a href="#" class="btn btn-outline">View Detail</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <i class="zmdi zmdi-chevron-left"></i>
+                <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <i class="zmdi zmdi-chevron-right"></i>
+                <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end carousel -->
+<!-- vertical tabs -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 home-page-form">
+    <div class="container">
+        <div class="row">
+            <div class="tabs-left">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#plane" data-toggle="tab"><i class="zmdi zmdi-airplane"></i></a></li>
+                    <li><a href="#bus" data-toggle="tab"><i class="zmdi zmdi-bus"></i></a></li>
+                    <li><a href="#train" data-toggle="tab"><i class="zmdi zmdi-railway"></i></a></li>
+                    <li><a href="#d" data-toggle="tab"><i class="zmdi zmdi-bus"></i></a></li>
+                </ul>
+                <div class="tab-content">
+                    <!-- first -->
+                    <div class="tab-pane active" id="plane">
+                        <form class="form-horizontal booking-form">
+                            <fieldset>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="radios">Trip Type</label>
+                                    <div class="">
+                                        <label class="radio-inline" for="one-way">
+                                            <input type="radio" name="trip-type" id="one-way" value="one way" checked="checked">
+                                            One Way
+                                        </label>
+                                        <label class="radio-inline" for="round-trip">
+                                            <input type="radio" name="trip-type" id="round-trip" value="round trip">
+                                            Round Trip
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure">Departure From</label>
+                                    <div class="">
+                                        <select id="departure" name="departure" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="arrival">Arrival To</label>
+                                    <div class="">
+                                        <select id="arrival" name="arrival" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure-date">Departure Date</label>
+                                    <div class="">
+                                        <select id="departure-date" name="departure-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="return-date">Return Date</label>
+                                    <div class="">
+                                        <select id="return-date" name="return-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="adult">Adult</label>
+                                        <input id="adult" name="adult" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="child">Child</label>
+                                        <input id="child" name="child" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="input">Infant</label>
+                                        <input id="infant" name="infant" type="number" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="nationality">Nationality</label>
+                                    <div class="">
+                                        <select id="nationality" name="nationality" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="selectbasic"></label>
+                                    <div class="">
+                                        <button id="submit" name="submit" class="btn btn-book-now">Book Now <i class="zmdi zmdi-check-circle"></i></button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!-- second -->
+                    <div class="tab-pane" id="bus">
+                        <form class="form-horizontal booking-form">
+                            <fieldset>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="radios">Trip Type</label>
+                                    <div class="">
+                                        <label class="radio-inline" for="one-way">
+                                            <input type="radio" name="trip-type" id="one-way" value="one way" checked="checked">
+                                            One Way
+                                        </label>
+                                        <label class="radio-inline" for="round-trip">
+                                            <input type="radio" name="trip-type" id="round-trip" value="round trip">
+                                            Round Trip
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure">Departure From</label>
+                                    <div class="">
+                                        <select id="departure" name="departure" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="arrival">Arrival To</label>
+                                    <div class="">
+                                        <select id="arrival" name="arrival" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure-date">Departure Date</label>
+                                    <div class="">
+                                        <select id="departure-date" name="departure-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="return-date">Return Date</label>
+                                    <div class="">
+                                        <select id="return-date" name="return-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="adult">Adult</label>
+                                        <input id="adult" name="adult" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="child">Child</label>
+                                        <input id="child" name="child" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="input">Infant</label>
+                                        <input id="infant" name="infant" type="number" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="nationality">Nationality</label>
+                                    <div class="">
+                                        <select id="nationality" name="nationality" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="selectbasic"></label>
+                                    <div class="">
+                                        <button id="submit" name="submit" class="btn btn-book-now">Book Now <i class="zmdi zmdi-check-circle"></i></button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!-- third -->
+                    <div class="tab-pane" id="train">
+                        <form class="form-horizontal booking-form">
+                            <fieldset>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="radios">Trip Type</label>
+                                    <div class="">
+                                        <label class="radio-inline" for="one-way">
+                                            <input type="radio" name="trip-type" id="one-way" value="one way" checked="checked">
+                                            One Way
+                                        </label>
+                                        <label class="radio-inline" for="round-trip">
+                                            <input type="radio" name="trip-type" id="round-trip" value="round trip">
+                                            Round Trip
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure">Departure From</label>
+                                    <div class="">
+                                        <select id="departure" name="departure" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="arrival">Arrival To</label>
+                                    <div class="">
+                                        <select id="arrival" name="arrival" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure-date">Departure Date</label>
+                                    <div class="">
+                                        <select id="departure-date" name="departure-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="return-date">Return Date</label>
+                                    <div class="">
+                                        <select id="return-date" name="return-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="adult">Adult</label>
+                                        <input id="adult" name="adult" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="child">Child</label>
+                                        <input id="child" name="child" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="input">Infant</label>
+                                        <input id="infant" name="infant" type="number" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="nationality">Nationality</label>
+                                    <div class="">
+                                        <select id="nationality" name="nationality" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="selectbasic"></label>
+                                    <div class="">
+                                        <button id="submit" name="submit" class="btn btn-book-now">Book Now <i class="zmdi zmdi-check-circle"></i></button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!-- fourth -->
+                    <div class="tab-pane" id="d">
+                        <form class="form-horizontal booking-form">
+                            <fieldset>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="radios">Trip Type</label>
+                                    <div class="">
+                                        <label class="radio-inline" for="one-way">
+                                            <input type="radio" name="trip-type" id="one-way" value="one way" checked="checked">
+                                            One Way
+                                        </label>
+                                        <label class="radio-inline" for="round-trip">
+                                            <input type="radio" name="trip-type" id="round-trip" value="round trip">
+                                            Round Trip
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure">Departure From</label>
+                                    <div class="">
+                                        <select id="departure" name="departure" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="arrival">Arrival To</label>
+                                    <div class="">
+                                        <select id="arrival" name="arrival" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 from-group-wrap">
+                                    <label class="control-label" for="departure-date">Departure Date</label>
+                                    <div class="">
+                                        <select id="departure-date" name="departure-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="return-date">Return Date</label>
+                                    <div class="">
+                                        <select id="return-date" name="return-date" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="adult">Adult</label>
+                                        <input id="adult" name="adult" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="child">Child</label>
+                                        <input id="child" name="child" type="number" class="form-control input-md">
+                                    </div>
+                                    <div class="form-sub-group">
+                                        <label class="control-label" for="input">Infant</label>
+                                        <input id="infant" name="infant" type="number" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="nationality">Nationality</label>
+                                    <div class="">
+                                        <select id="nationality" name="nationality" class="form-control">
+                                            <option value="1">Option one</option>
+                                            <option value="2">Option two</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <label class="control-label" for="selectbasic"></label>
+                                    <div class="">
+                                        <button id="submit" name="submit" class="btn btn-book-now">Book Now <i class="zmdi zmdi-check-circle"></i></button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div><!-- /tab-content -->
+            </div><!-- /tabbable -->
+        </div>
+    </div>
+</div>
+<!-- end vertical tabs -->
+<!-- POPULAR PACKAGES -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 package-wrap popular-package">
+    <div class="container">
+        <div class="row">
+            <div class="top-title text-center">
+                <h2>POPULAR PACKAGES</h2>
+                <p>Most Popular Tours around the World</p>
+            </div>
+            <div class="row zero-row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 380$</p></div>
+                            <img class="img-responsive" src="~/images/pop1.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Malaysia Tour</a></h3>
+                                <p>3 Nights 4 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 680$</p></div>
+                            <img class="img-responsive" src="~/images/pop2.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Malaysia Singapore Tour</a></h3>
+                                <p>5 Nights 6 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 980$</p></div>
+                            <img class="img-responsive" src="~/images/pop3.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Malaysia Singapore Thailand Tour</a></h3>
+                                <p> Nights 8 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 980$</p></div>
+                            <img class="img-responsive" src="~/images/pop4.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Mt Kailash Tour</a></h3>
+                                <p>13 Nights 14 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 380$</p></div>
+                            <img class="img-responsive" src="~/images/pop3.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Thailand Tour</a></h3>
+                                <p>3 Nights 4 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 380$</p></div>
+                            <img class="img-responsive" src="~/images/pop1.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Indonasia Bali Tour</a></h3>
+                                <p>4 Nights 5 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 380$</p></div>
+                            <img class="img-responsive" src="~/images/pop2.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Dubai Tour</a></h3>
+                                <p>3 Nights 4 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 popular-package-wrap">
+                    <div class="ov-box">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="ribbon"><p>From 380$</p></div>
+                            <img class="img-responsive" src="~/images/pop4.jpg" alt="">
+                            <div class="pop-caption">
+                                <h3><a href="#">Agra-Goa Tour</a></h3>
+                                <p>4 Nights 5 Days</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END POPULAR PACKAGES -->
+<!-- INBOUND PACKAGE -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inbound-package parallax-window gradient" data-parallax="scroll" data-speed="0.6" data-image-src="img/in-bg-1.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="top-title text-center">
+                <h2>INBOUND PACKAGES</h2>
+                <p>Most Popular Tour packages Inside Nepal</p>
+            </div>
+            <div class="row zero-row">
+                <!-- first -->
+                <div class="col-sm-6 col-md-3 col-xs-12 inbound-package-wrap">
+                    <div class="thumbnail">
+                        <figure><a href="#"><img src="~/images/in1.jpg" alt="..."></a></figure>
+                        <div class="caption">
+                            <h3><a href="#">Kathmandu Chitwan Tour</a></h3>
+                            <p>4 Night 5 Days</p>
+                            <p id="button-wrap">
+                                <a href="#" class="btn btn-thumbnail" role="button">View Detail</a>
+                                <a class="st-price">125$ <br><span>Starting Price</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- second -->
+                <div class="col-sm-6 col-md-3 col-xs-12 inbound-package-wrap">
+                    <div class="thumbnail">
+                        <figure><a href="#"><img src="~/images/in2.jpg" alt="..."></a></figure>
+                        <div class="caption">
+                            <h3><a href="#">Kathmandu Pokhara Tour</a></h3>
+                            <p>4 Night 5 Days</p>
+                            <p id="button-wrap">
+                                <a href="#" class="btn btn-thumbnail" role="button">View Detail</a>
+                                <a class="st-price">125$ <br><span>Starting Price</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- third -->
+                <div class="col-sm-6 col-md-3 col-xs-12 inbound-package-wrap">
+                    <div class="thumbnail">
+                        <figure><a href="#"><img src="~/images/in3.jpg" alt="..."></a></figure>
+                        <div class="caption">
+                            <h3><a href="#">Namo Buddha Tour</a></h3>
+                            <p>4 Night 5 Days</p>
+                            <p id="button-wrap">
+                                <a href="#" class="btn btn-thumbnail" role="button">View Detail</a>
+                                <a class="st-price">125$ <br><span>Starting Price</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth -->
+                <div class="col-sm-6 col-md-3 col-xs-12 inbound-package-wrap">
+                    <div class="thumbnail">
+                        <figure><a href="#"><img src="~/images/in4.jpg" alt="..."></a></figure>
+                        <div class="caption">
+                            <h3><a href="#">Nagarkot Tour</a></h3>
+                            <p>4 Night 5 Days</p>
+                            <p id="button-wrap">
+                                <a href="#" class="btn btn-thumbnail" role="button">View Detail</a>
+                                <a class="st-price">125$ <br><span>Starting Price</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END INBOUND PACKAGE -->
+<!-- OUR SERVICES -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 our-services">
+    <div class="container">
+        <div class="row">
+            <div class="top-title text-center">
+                <h2>our services</h2>
+                <p>Most Popular Tour Packages Inside Nepal</p>
+                <p><img src="~/images/our-serv.png" alt=""></p>
+            </div>
+            <div class="row zero-row">
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 service-wrap">
+                    <a href="#">
+                        <img src="~/images/serv1.png" alt="">
+                        <h4>Holidays Tours</h4>
+                        <p>4 Nights 5 Days</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 service-wrap">
+                    <a href="#">
+                        <img src="~/images/serv2.png" alt="">
+                        <h4>Trekking in Nepal</h4>
+                        <p>1 Nights 5 Days</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 service-wrap">
+                    <a href="#">
+                        <img src="~/images/serv3.png" alt="">
+                        <h4>Rafting in Nepal </h4>
+                        <p>4 Nights 5 Days</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 service-wrap">
+                    <a href="#">
+                        <img src="~/images/serv4.png" alt="">
+                        <h4>Cablecar Reservation</h4>
+                        <p>4 Nights 5 Days</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 service-wrap">
+                    <a href="#">
+                        <img src="~/images/serv5.png" alt="">
+                        <h4>Jungle Safari</h4>
+                        <p>4 Nights 5 Days</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 service-wrap">
+                    <a href="#">
+                        <img src="~/images/serv6.png" alt="">
+                        <h4>Paragliding /Ultralight</h4>
+                        <p>4 Nights 5 Days</p>
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                <p class="text-center"><a href="#" class="btn btn-book-now">VIEW ALL <i class="zmdi zmdi-check-circle"></i></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OUR SERVICES -->
+<!-- parallax-section -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 parallax-window parallax-window-in" data-parallax="scroll" data-speed="0.6" data-image-src="img/chandragiri.jpg">
+    <div class="text-cont">
+        <h2>Chandragiri Hill - Where wishes come true</h2>
+        <p><a href="#">Visit Website</a>  |  <a href="#">Book a Cable Car</a></p>
+    </div>
+</div>
+<!-- end parallax-section -->
+<!-- BOX SECTION -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-section">
+    <div class="container">
+        <div class="row">
+            <div class="main-box clearfix">
+                <div class="box-one">
+                    <div class="box-one-wrap">
+                        <div class="box-one-img">
+                            <img class="img-responsive" src="~/images/1.jpg" alt="">
+                        </div>
+                        <div class="box-one-cont pink">
+                            <div class="arrow-left"></div>
+                            <h3><a href="#">Everest basecamp Treking</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <hr>
+                            <p id="bottom-row"><i class="zmdi zmdi-calendar"></i> 12 Nights/14 Days &nbsp;| <a href="#"><i class="zmdi zmdi-check-circle"></i> View Detail</a></p>
+                        </div>
+                    </div>
+                    <div class="box-one-wrap reverse">
+                        <div class="box-one-img">
+                            <img class="img-responsive" src="~/images/2.jpg" alt="">
+                        </div>
+                        <div class="box-one-cont blue">
+                            <div class="arrow-right"></div>
+                            <h3><a href="#">Rara Region Treking</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <hr>
+                            <p id="bottom-row"><i class="zmdi zmdi-calendar"></i> 12 Nights/14 Days &nbsp;| <a href="#"><i class="zmdi zmdi-check-circle"></i> View Detail</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-two">
+                    <div class="box-two-img">
+                        <img class="img-responsive" src="~/images/3.jpg" alt="">
+                    </div>
+                    <div class="box-two-cont yellow">
+                        <div class="arrow-up"></div>
+                        <h3><a href="#">Poonhil short Trekking</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <hr>
+                        <p id="bottom-row"><i class="zmdi zmdi-calendar"></i> 12 Nights/14 Days &nbsp;| <a href="#"><i class="zmdi zmdi-check-circle"></i> View Detail</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END BOX SEXTION -->
+<!-- Partners -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 related text-center">
+                <div class="img-box">
+                    <img class="img-responsive" src="~/images/ass-org.png" alt="">
+                </div>
+                <p>Associated Organizations</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 related text-center">
+                <div class="img-box">
+                    <img class="img-responsive" src="~/images/payment.png" alt="">
+                </div>
+                <p>Payment Partners</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 related text-center">
+                <div id="airlines" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#airlines" data-slide-to="0" class="active"></li>
+                        <li data-target="#airlines" data-slide-to="1"></li>
+                        <li data-target="#airlines" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="~/images/airlines.png" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="~/images/airlines.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <p>Airlines Partners</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Partners -->
